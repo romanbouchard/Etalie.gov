@@ -1,0 +1,41 @@
+Id,Province,Full Name,Form,State,Color,Capital,Area km2,Total Population,Rural Population,Urban Population,Burgs
+243,Gibaltage,Nom original; Jabal Jaleedi - Nom italianisé: Gibaltage - Nom Officiel: Quadèrnitophanilorezque,Province,Étalie,#e5ae5d,Gibaltage,400,22279,8279,14000,1
+244,Bushard Bay,Bushard Bay,Province,Étalie,#d59254,New Roma,19040,1150987,1149643,1344,1
+245,Talon Étalien,Talon Étalien,Province,Étalie,#cca34f,Maréchaux,35968,1789250,1697250,92000,2
+246,Talon Andrien,Talon Andrien,Province,Étalie,#e5ac39,Yara-Notre-Sauveur,25040,2290470,1724988,565482,6
+247,Fleury,Fleury Province,Province,Étalie,#f99436,Port-Aux-Souverains,34784,2670359,1629359,1041000,4
+248,Baxe,Baxe,Province,Étalie,#f99534,,45968,3028607,3028607,0,0
+249,Vénésie,Engengen Province,Province,Étalie,#e0884b,,22992,1535572,1535572,0,0
+250,Marcio,Gorzelia Province,Province,Étalie,#e0884b,Lataylon,21120,1633841,1438841,195000,3
+251,Romagna,Romagna,Province,Étalie,#f68945,,22464,1428693,1428693,0,0
+252,Grâdes,Grâdes Province,Province,Étalie,#cca74a,,9808,338539,338539,0,0
+253,Tivainne,Tivainne Province,Province,Étalie,#f99932,,7568,238807,238807,0,0
+254,Aloies,Braungenia Province,Province,Étalie,#d4ac3e,,11984,686978,686978,0,0
+255,Hors-Grande-Vénésie,Hors-Grande-Vénésie Province,Province,Étalie,#cda946,,8096,519006,519006,0,0
+256,Balques,Balques Province,Province,Étalie,#eea734,,11024,776060,776060,0,0
+257,Côte d'Avoigne,Côte d'Avoigne,Province,Étalie,#f0a433,Newhouse,2112,88485,88485,0,0
+258,Brien,Brien Province,Province,Étalie,#f98c3f,,8112,566550,566550,0,0
+259,Alanbie,Alanbie Province,Province,Étalie,#d39555,,4048,220710,220710,0,0
+260,Île Saint-Étienne,Île Saint-Étienne,Province,Étalie,#eca836,Port Saint-Étienne,880,97943,69943,28000,1
+261,Jance,Jance Province,Province,Étalie,#d2ac40,,5008,323942,323942,0,0
+262,Ombrie,Ombrie Province,Province,Étalie,#db8a4d,,12336,826006,826006,0,0
+263,Isulae,Isulae Province,Province,Étalie,#cfaa44,,5280,375383,375383,0,0
+264,Vénéz,Vénéz Province,Province,Étalie,#cba44e,,3776,238208,238208,0,0
+265,Alonse,Alonse Province,Province,Étalie,#f28849,,7008,444270,444270,0,0
+268,Prisoñia,Prisoñia Province de la Colonia Colón-Romácia,Province,Étalie,#f0a332,Ingresa,912,83840,59840,24000,1
+274,Milela-Cale,Milela-Cale,Province,Étalie,#eea634,,19168,691579,691579,0,0
+275,North Milela,North Milela,Province,Étalie,#ce9d54,Commori,2896,121834,97883,23951,1
+277,Pruxe-Slamique,Pruxe-Slamique,Province,Étalie,#d79053,Angerce,1136,61580,59290,2290,2
+278,Quoueta-Et-Milenniar-Étalois,Quoueta-Et-Milenniar-Étalois,Province,Étalie,#c0ad4b,Duc de Forquoueta,400,24002,22496,1506,1
+280,Tonawa,Réserve autochtone de Ŧonawa,Province,Étalie,#cba34e,,5232,152323,152323,0,0
+281,Côte-Anglaise,Côte-Anglaise,Province,Étalie,#f99436,Newhouse,3536,334240,55240,279000,3
+290,Grande-Capitale,Grande-Capitale,Province,Étalie,#ec874b,Lataylon,1296,3993620,116229,3877391,2
+291,Pruxe,Pruxe,Province,Étalie,#db8b4f,Angerce,416,66297,14297,52000,1
+301,Duchés-Saints,Duchés-Saints,Province,Étalie,#d1ab41,Duc Dejolicour,69184,3904445,3216028,688417,10
+306,Territoire-D'Angé,Territoire-D'Angé,Province,Étalie,#d49355,Nordvale,48432,3863935,3857762,6173,2
+307,Territoire-Du-Sud,Territoire-Du-Sud,Province,Étalie,#cca151,Mer Saint-Louis,59312,4628529,3756529,872000,4
+310,Nouvelle-Étalie,Nouvelle-Étalie,Province,Étalie,#eea734,Nouvel-Étalo,27344,4453889,1473889,2980000,1
+311,Territoire-Du-Nord,Territoire-Du-Nord,Province,Étalie,#e1ac39,Nordvale,47344,2933304,2499104,434200,6
+312,Territoire-Du-Roy,Territoire-Du-Roy,Province,Étalie,#cca052,Estmontagne,48512,4712559,3044559,1668000,6
+313,Territoire-Des-Chrits,Territoire-Des-Chrits,Province,Étalie,#ceaa45,Chritsburg,32304,2329705,2181705,148000,1
+315,Agort,Agort,Province,Étalie,#d6ac3d,Korsk,592,50,0,50,1
