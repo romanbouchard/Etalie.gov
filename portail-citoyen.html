@@ -47,6 +47,41 @@
 </head>
 <body>
 
+  /* ROMAN MODIFY START HERE */
+  /* ROMAN MODIFY START HERE */
+  /* ROMAN MODIFY START HERE */
+  /* ROMAN MODIFY START HERE */
+  <div id="result"></div>
+
+<script type="module">
+  import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+  const SUPABASE_URL = "https://voomgxyfozebpztmiavv.supabase.co";
+  const SUPABASE_ANON_KEY = "sb_publishable_dwTfEWTxj92ZYWqDRY-wYw_MOAV-aMJ";
+
+  const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+  async function loadCitoyens() {
+    const { data, error } = await supabase
+      .from("citoyens")
+      .select("*");
+
+    const el = document.getElementById("result");
+    if (error) {
+      el.textContent = "Erreur: " + error.message;
+      console.log(error);
+      return;
+    }
+    el.textContent = JSON.stringify(data, null, 2);
+  }
+
+  loadCitoyens();
+</script>
+/* ROMAN MODIFY FINISH HERE */
+  /* ROMAN MODIFY FINISH HERE */
+  /* ROMAN MODIFY FINISH HERE */
+  /* ROMAN MODIFY FINISH HERE */
+
 <div class="bandeau-utilitaire">
   <div class="conteneur">
     <span><span class="puce"></span>République d'Étalie — Site officiel du gouvernement</span>
