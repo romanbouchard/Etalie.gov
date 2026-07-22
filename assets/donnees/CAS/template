@@ -56,4 +56,12 @@ etc...
 
 
 
-Mais avant ça, faudra que tu me donnes les instructions de quelle infos supabase te donner pout que tu accèdes à la database de Supabase
+Mais avant ça, faudra que tu me donnes les instructions de quelle infos supabase te donner pout que tu accèdes à la database de Supabase.
+
+
+
+Pour s'inscrire il faudra d'abord qu'il entre son code d'Assurance Sociale (CAS) écrit dans assets/donnees/CAS/num_CAS.txt (il devra l'écrire non encrypté, écrit comme ça; CCC-CCC-CCC, chaque chiffre séparés par un tiret mais il sera lu CCC CCC CCC pour le décryptage, après il faudra qu'il se crée un username pour la connection, il faudra qu'il entre son nom légal complet (nom de famille, prénom), date de naissance réelle (JOURS ET MOIS SEULEMENT) (qui sera transmise en toutouïen et il devra avoir 20 ans toutouïen minimum (majorité civile)) et un mot de passe puis toutes ses infos seront sauvés dans la database du scripte SQL que tu m'as donné auparavant 
+
+
+
+Et pour se connecter il faudra juste son username et son mot de passe.
