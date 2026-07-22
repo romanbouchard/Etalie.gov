@@ -38,21 +38,21 @@ Le code social de Frederic Cong est 982 391 743, elle expire le 1 novembre 2028 
 
 
 
+et aussi à chaque minute qu'il est le sur le site (après s'être connecté) il obtient 12,5 Roiyals par minute et ça update sa donnée Supabase (envoie moi le fichier SQL pour créer la donnée) et la donnée doit s'actualiser à chaque 5 minute sur la databse supabase et quand il est connecté il peut voir le nombre de Roiyals qu'il a sur son compte en banque et elle s'actualise en temps réel
+
+et C'est marqué que ça augmente de 12,5 la minute et que ça s'actualise sur la donnée dans [TEMPS RESTANT SUR 5 minutes], par contre sur le site elle s'actualise à chaque seconde et elle augmente de 0.20833333333... à chaque seconde (SUR LE SITE) jusquà ce que ça donne 12,5 après une minute et ça doit arrondir, par contre si tu es connecté à ce compte; Q-Q-Q/Q-Q-Q/Q-Q-Q$$$ADMIN###ADMIN@@@0&&&20*12?2029=O (ajoute le dans le script que lui il a une fenêtre personelle où il peut modifier les données suivantes dans la database, mais pour modifier il faut qu'il rentre l'UUID pour savoir qui modifier, il peut modifier la trésorerie de quelqu'un (écrire l'UUID et le nombre combien il veut ajouter à l'argent actuel (SEULEMENT SI IL Y A UN + devant le chiffre) et si il veut supprimer il faut mettre un - devant le chiffre), il peut aussi supprimer un compte avec l'UUID, le compte ADMIN peut aussi ajouter ou supprimer des dettes et il peut aussi augmenter ou supprimer le nombre de prêt (les prêts fonctionne de même; le prix ajouté par l'ADMIN augmente de 20% car les prêts n'augmentent pas à long termes mais d'une shot et à rembourser) et il y a aussi Argent attendu (qui peut aussi être modifié par Admin où qui est l'argent des paiements qu'il doit reçevoir du gouvernement) en  (il faut que tu crée la donnée dette et trésorerie) 
+
+Alors une personne normale voit juste toutes ses infos (dans supabase; id, username, prénom, nom, code social, date de naissance, âge toutouïen et compte créé le puis après les informations dans num_CAS.txt; quand son CAS expire, est-ce que son CAS a une protection à l'expiration (travail pour le gouvernement)), et il y a la trésorerie, les dettes et les prêts, argent attendu; puis suivis de certaines informations additionelles présentent dans des portails gouvernementaux
+
+
+
 voici le début du fichier CAS
 
-
+Q-Q-Q/Q-Q-Q/Q-Q-Q$$$ADMIN###ADMIN@@@0&&&20*12?2029=O
 
 B-N-E/Z-B-Q/H-V-Z$$$CONG###FREDERIC@@@0&&&01*11?2028=N
 
-V-N-H/E-Z-Z/X-T-Q$$$LAFLEUR###ROMAN@@@0&&&05*09?2027=O
-
-T-E-H/Z-N-Q/N-B-E$$$MURDER###KONDOR@@@0&&&06*02?2027=N
-
-T-B-X/E-E-Q/V-Z-T$$$MACDONALD###LAURENT@@@0&&&06*02?2027=N
-
-E-Q-X/Z-K-K/E-B-Q$$$BOIVIN###KELLIE@@@0&&&06*02?2029=N
-
-H-Q-E/B-K-Q/N-Z-B$$$OUELLET###ULRICK@@@0&&&06*02?2029=N
+etc...
 
 
 
