@@ -69,4 +69,56 @@ Et pour se connecter il faudra juste son username et son mot de passe.
 
 SECONDS
 
+et j'ai oublié de te le citer dans le contenu collé, il faut que lors de l'inscription  ils mettent aussi une adresse email (c'est seulement optionnel, ils ne sont pas obligés de le mettre, c'est optionnel alors marque bien que c'est optionnel) et ils peuvent soit se connecter avec un nom d'utilisateur + mot de passe ou sinon avec un email + mot de passe (s'il y en a un) et recommande de mettre un email pour si ils perdent leur mot de passe - alors actualiste la database SQL avec ça, j'ai joint ton ancien SQL que j'avais déjà lancé auparavant.
+
+
+
 Prends ton temps pour le portail et le nouveau SQL que tu vas me donner pour la trésorerie, etc. et pour me dire où mettre certaines données  (par exemple mots de passes) Supabase, prends ton temps et modifie bien le portail-citoyen, si tu as d'autres fichiers à créer en lien, fais-les mais modifie pas les autres si tu n'en as pas besoin.
+
+
+
+Voici la key de supabase
+
+S3 Configuration
+
+Connection
+
+Connect to your bucket using any S3-compatible service via the S3 protocol
+
+Docs
+
+S3 protocol connection
+
+Allow clients to connect to Supabase Storage via the S3 protocol
+
+https://voomgxyfozebpztmiavv.storage.supabase.co/storage/v1/s3
+
+Endpoint
+
+us-east-2
+
+Region
+
+Save
+
+Access keys
+
+Manage your access keys for this project
+
+New access key
+
+Name	Key ID	Created at	
+
+Claude.rest.portail-connection-github	
+
+5e896c43fa06d05aa92e682667f72ce8
+
+Today	
+
+
+
+et aussi quand il est connecté il a l'option message pour écrire des messages à d'autres utilisateurs avec Supabase, l'admin peut voir tous les messages de tout le monde, et envoyer des messages à plusieurs personnes, tout le monde ou juste une et les messages ne peuvent pas se supprimer. Pour une personne qui n'est pas admin, celui qui envoie le message doit rentrer un username a qui envoyer le message puis après un nom au message (titre) puis un message avec une limite de 500 caractères et juste des caractères UTF-8 sont acceptés, pas d'emoji non-plus, la personne qui envoie le message peut le supprimer pour les deux partis en appuyant sur le X à côté une fois envoyé, quand il appuie sur modifier, il peut modifier le message. Celui qui reçoit peut supprimer (juste pour lui). Assurez-vous que la logique d’accès/lecture/écriture est sécurisée côté base avec RLS (non-admin : uniquement ses messages/destinataire ; admin : tout voir). Il utilisera des tables + RLS policies + (realtime triggers).
+
+
+
+et aussi quand un utilisateur se connecte il peut cocher la case pour rester connecter qui va le laisser connecter jusqu'à sa déconnection ou ne pas la cocher et qui va le déconecter quand il partira.
