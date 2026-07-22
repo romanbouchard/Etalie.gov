@@ -1,0 +1,38 @@
+et attend dans le fichier où sont les codes CAS valide il y a une template à suivre et à respecter. elle ressemble à ça, le [CODE CAS] est là où qu'on écrit le code de 9 chiffres qui suit cette template; CCC CCC CCC après ça il y a le nom légal écrit à côté (nom de famille, prénom (ATTENTION, si c'est la première personne a s'appeler comme ça il y aura un 0 à côté mais si c'est la deuxième un 1, la troisième un 2, etc. pour ne pas se mêler) et après la date d'expiration de ce code d'assurance social en date réelle (JOUR MOIS ANNÉE) si il essaie de s'inscrire et son code social n'est pas bon, sa demande d'inscription sera refusée et si il a déjà un compte et elle est expirée, alors il ne pourra pas se connecter MAIS il ne devra pas non-plus perdre son compte parce que quand elle ne pourra pas se connecter elle pourra voir son uuid et ce sera marqué: "Bonjour [PRÉNOM], votre code d'assurance social (CAS) est expiré et demande un renouvellement. Allez à l'ambassade la plus proche pour vous la refaire mettre à jour, et emmenez une photo, ou plus simplement un papier étant écrit ce code [UUID de Supabase], avec votre prénom et nom légal, suivit de ce chiffre [chiffre d'identification de nom, écrit dans num_CAS.txt] et avec votre code d'assurance social écrit dessus. N'oubliez pas d'apporter aussi une pièce d'identité pour prouver votre identité, merci. - Si vous avez travaillés pour le gouvernement et vous voyez ce message, veuillez voir l'ambassade la plus proche de chez vous avec le même écrit qu'en haut, avec une preuve de travail pour le gouvernement, car vous seriez admissible pour un CAS permanent pour votre service au gouvernement."
+
+
+
+et s'il a la case gouvernement coché après, même si son CAS est expirée cela ne le bloque pas de l'empêcher de se connecter, parce que il a travaillé pour le gouvernement et alors les messages ne s'affichent pas et il peut se connecter, seulement si le code est O qui signifie oui, si il est N alors ça change rien parce que ça veut dire qu'il n'a pas travaillé pour le gouvernement alors quand son CAS expirera (ceux en N) il devront le renouvler mais ceux en O, non.
+
+
+
+Les majuscules et miniscules dans le nom n'importent pas.
+
+
+
+Voici un exemple comment c'est écrit dans assets/donnees/CAS/num_CAS.txt
+
+
+
+voici la template au tout premier abord pour que tu puisses faire un scripte capable de lire;
+
+
+
+[Code d'assurance social]$$$[nom de famille]###[prénom]@@@[chiffre d'identification de nom]&&&[jour expiration]*[mois expiration]?[année expiration]=[case gouvernement, O pour OUI et N pour non]
+
+
+
+et il faudra juste décoder le code d'assurance social, rien d'autre.
+
+et voici un exemple concret;
+
+
+
+B-N-E/Z-B-Q/H-V-Z$$$CONG###FREDERIC@@@0&&&01*11?2028=N
+
+
+
+qui se traduirait en 
+
+Le code social de Frederic Cong est 982 391 743, elle expire le 1 novembre 2028 et il n'a pas travaillé pour le gouvernement alors il n'est pas exempé
+
