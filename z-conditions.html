@@ -93,47 +93,6 @@
   </div>
 </section>
 
-<script>
-const niveauxInfo = {
-  1: {couleur:'#1D4ED8', nom:'Infractions mineures'},
-  2: {couleur:'#16A34A', nom:'Criminalité visible et récurrente'},
-  3: {couleur:'#84A80C', nom:'Criminalité sérieuse / gangs présents'},
-  4: {couleur:'#B5651D', nom:'Violence organisée et instabilité'},
-  5: {couleur:'#B33A1E', nom:'Danger élevé / atteintes graves'},
-  6: {couleur:'#7A1F2B', nom:'Crise sécuritaire majeure'},
-};
-
-function recalculer() {
-  const niveau6coche = document.querySelectorAll('.case-niveau6:checked').length > 0;
-  let cote, niveau;
-  if (niveau6coche) {
-    cote = 65;
-    niveau = 6;
-  } else {
-    let brut = 0;
-    document.querySelectorAll('.case-inspeq:checked').forEach(c => {
-      brut += parseInt(c.dataset.niveau, 10);
-    });
-    cote = brut * 0.95;
-    if (cote <= 12) niveau = 1;
-    else if (cote <= 24) niveau = 2;
-    else if (cote <= 36) niveau = 3;
-    else if (cote <= 48) niveau = 4;
-    else if (cote <= 60) niveau = 5;
-    else niveau = 6;
-  }
-  document.getElementById('cote-valeur').textContent = cote.toFixed(2).replace('.', ',');
-  document.getElementById('jauge').style.width = Math.min(100, (cote/71.25)*100) + '%';
-  const info = niveauxInfo[niveau];
-  document.getElementById('colori-face').style.background = info.couleur;
-  document.getElementById('colori-face').textContent = niveau;
-  document.getElementById('niveau-nom').textContent = `Niveau ${niveau} — ${info.nom}`;
-}
-
-document.querySelectorAll('.case-inspeq, .case-niveau6').forEach(c => c.addEventListener('change', recalculer));
-recalculer();
-</script>
-
 <footer>
   <div class="conteneur">
     <div class="pied-grille" style="grid-template-columns:1.1fr repeat(4,1fr);">
