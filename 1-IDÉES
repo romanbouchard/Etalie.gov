@@ -3,10 +3,15 @@ Mettre dans traduction une copie du site dans ta conlang.
 AJouter une option de contacter un ministère, une association, un gouvernement, ajouter une option d'amendes et une option de paiement ou l'utilisateur
 peut utiliser sa trésorerie pour diminuer ses dettes, le remboursement de ses prêts
 
-Ajoute aussi une autre tab que quelqu'un peut devenir policier, si la tab est O ça veut dire oui et N ça veut dire non,
+Ajoute aussi une autre tab que quelqu'un peut devenir policier, si la dans le fichier est O ça veut dire oui et N ça veut dire non,
 si la personne possède le O alors il aura accès à un panneau; il peut chercher dans la base de donnée avec un code social décrypté.
 Avec ce code social il peut envoyer un message à la personne précise avec seulement un message avec le tag @Message d'un agent de la paix, ou juste un normal quand il veut contacter en citoyen,
 il peut aussi créer un Constat d'infraction qui porte le tag @Message d'un agent de la paix; il pourra seulement être supprimé par l'utilisateur une fois payé, sauf si il a déjà été supprimé par l'agent de la paix.
 Pour créer un constat d'infraction (le titre sera simplement; "Constrat d'infraction commis le [DATE]", il devra juste remplir la date quand l'infraction a étée commise, après ça il devra remplir les informations suivantes;
 Il doit ajouter une raison (pourquoi en donner une), une justification (pourquoi ce la mérite), la date de l'infraction (jours, mois, années), date de l'infraction toutouïenne (x an, x jour), l'heure de l'infraction (heures, minutes), l'infraction (en écrit), le numéro d'infraction (en nombre, codification du code pénal), agent qui a vu l'infraction (matricule), agent qui l'a donné (matricule), agent qui a assisté celui qui l'a donné (matricule), agent qui a vu l'infraction (nom légal), agent qui l'a donné (nom légal), agent qui a assisté celui qui l'a donné (nom légal), où l'infraction a t'elle été faite (rue, ville, province), le prix que le criminel doit payer (sans taxes), le prix des taxe (sans le prix de l'infraction), et le total des avec taxes et infractions puis après le nom du comisseriat en charge des officiers (nom du comisseriat, puis provincial ou fédéral)
+et pour lui qui doit payer il y aura un bouton payer et ça payera avec sa trésorerie (SEULEMENT SI IL EN A LE MONTANT, et quand il paye c'est sauvegardé pour éviter l'abus)
+
+et ajoute l'option virement d'argent pour tout le monde où que ça vire de l'argent, pour un virement pour la famille (1 personne, aucun remboursement possible du système de virement), 5% du montant donné sera envoyé au gouvernement (l'username est @gouvernement) et si c'est virement business (virement pour un achat, économique, avantage de pouvoir se faire rembourser si gagné et pouvoir envoyer ce montant (le même montant) à plusieurs personnes et payer la taxe de juste 20% sur le montant total du paiement) une taxe de 25% sera prélevée du montant envoyée et envoyée au gouvernement (l'username @gouvernement)
+
+
 Fais en sorte que l'admin peut voir la trésorerie
